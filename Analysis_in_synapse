@@ -19,3 +19,11 @@ AVG(Female) AS Avg_Female,
 AVG(Male) AS Avg_Male
 FROM entriesgender
 GROUP BY Discipline;
+
+
+SELECT Discipline, 
+AVG(Female) AS Avg_Female, 
+AVG(Male) AS Avg_Male
+FROM entriesgender
+WHERE Discipline = 'Archery'
+GROUP BY Discipline;

@@ -7,15 +7,15 @@ This is an end-to-end data engineering project on the Azure cloud. Where I did d
 Project Goals:
 
 
-•	Establish a connection between GITHUB and Azure cloud.
+    •	Establish a connection between GITHUB and Azure cloud.
 
-•	Ingest tables into the Azure Data Lake Storage.
+    •	Ingest tables into the Azure Data Lake Storage.
 
-•	Apply data cleaning and transformation using Azure Databricks.
+    •	Apply data cleaning and transformation using Azure Databricks.
 
-•	Utilize Azure Synapse Analytics for loading clean data.
+    •	Utilize Azure Synapse Analytics for loading clean data.
 
-•	Create interactive data visualizations and reports with Microsoft Power BI.
+    •	Create interactive data visualizations and reports with Microsoft Power BI.
 
 
 Project Architecture:
@@ -36,24 +36,24 @@ Source(Kaggle): 2021 Olympics in Tokyo
 Technologies Used:
 
 
-•	Data Source: GITHUB
+    •	Data Source: GITHUB
 
-•	Orchestration: Azure Data Factory
+    •	Orchestration: Azure Data Factory
 
-•	Transformation: Azure Databricks
+    •	Transformation: Azure Databricks
 
-•	Security: App Registrations
+    •	Security: App Registrations
 
-•	Storage: Azure Data Lake Gen2
+    •	Storage: Azure Data Lake Gen2
 
-•	Analytics: Azure Synapse Analytics
+    •	Analytics: Azure Synapse Analytics
 
-•	Data Visualization: PowerBI
+    •	Data Visualization: PowerBI
 
 Prerequisite:
 
-• Azure account with active subscription
+    • Azure account with active subscription
 
-• Databricks community edition account
+    • Databricks community edition account
 
-• Knowledge about storage account, dataframe, azure data factory, sql stc.
+    • Knowledge about storage account, dataframe, azure data factory, sql stc.

@@ -17,12 +17,6 @@ Project Goals:
 
 •	Create interactive data visualizations and reports with Microsoft Power BI.
 
-Dataset Used:
-
-
-This contains the details of over 11,000 athletes, with 47 disciplines, along with 743 Teams taking part in the 2021(2020) Tokyo Olympics. This dataset contains the details of the Athletes, Coaches, Teams participating as well as the Entries by gender. It contains their names, countries represented, discipline, gender of competitors, name of the coaches.
-
-Source(Kaggle): 2021 Olympics in Tokyo
 
 Project Architecture:
 
@@ -30,7 +24,17 @@ Project Architecture:
 You can find the detailed information on the diagram below:
 
 ![image](https://github.com/user-attachments/assets/3a18cc2d-d7c2-4325-b075-61ddeea9f5b8)
+
+
+Dataset Used:
+
+
+This contains the details of over 11,000 athletes, with 47 disciplines, along with 743 Teams taking part in the 2021(2020) Tokyo Olympics. This dataset contains the details of the Athletes, Coaches, Teams participating as well as the Entries by gender. It contains their names, countries represented, discipline, gender of competitors, name of the coaches.
+
+Source(Kaggle): 2021 Olympics in Tokyo
+
 Technologies Used:
+
 
 •	Data Source: GITHUB
 
@@ -45,3 +49,11 @@ Technologies Used:
 •	Analytics: Azure Synapse Analytics
 
 •	Data Visualization: PowerBI
+
+Prerequisite:
+
+• Azure account with active subscription
+
+• Databricks community edition account
+
+• Knowledge about storage account, dataframe, azure data factory, sql stc.

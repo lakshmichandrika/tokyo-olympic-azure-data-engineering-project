@@ -57,3 +57,11 @@ Prerequisite:
     • Databricks community edition account
 
     • Knowledge about storage account, dataframe, azure data factory, sql stc.
+
+
+![image](https://github.com/user-attachments/assets/1319dad0-ea8f-4d59-983d-930b981dbf49)
+
+
+
+
+    

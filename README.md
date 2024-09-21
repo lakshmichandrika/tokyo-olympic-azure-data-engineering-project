@@ -4,6 +4,51 @@ Project Overview:
 
 This is an end-to-end data engineering project on the Azure cloud. Where I did data ingestion from GITHUB to Azure Data Lake using Data Factory to transformation using Databricks loading to Synapse, and reporting using Power BI. 
 
+Based on the data source from Kaggle for the 2021 Olympics in Tokyo¹, here is a business requirement outline:
+
+### Business Requirements
+
+1. **Athlete Performance Analysis**:
+   - **Objective**: Analyze the performance of athletes across different sports and events.
+   - **Metrics**: Medals won, personal bests, and records set.
+
+2. **Country Performance Comparison**:
+   - **Objective**: Compare the performance of different countries.
+   - **Metrics**: Total medals, gold medals, and overall ranking.
+
+3. **Event Popularity**:
+   - **Objective**: Determine the popularity of various sports and events.
+   - **Metrics**: Number of participants, audience size, and social media mentions.
+
+4. **Gender Participation**:
+   - **Objective**: Analyze gender participation across different sports.
+   - **Metrics**: Number of male and female athletes, medals won by gender.
+
+5. **Historical Comparison**:
+   - **Objective**: Compare the 2021 Olympics data with previous Olympics.
+   - **Metrics**: Improvement in performance, changes in participation, and medal trends.
+
+### Non-Functional Requirements
+
+1. **Data Aggregation**:
+   - **Requirement**: Pre-aggregate data to improve performance.
+   - **Implementation**: Aggregate data by year, month, and event.
+
+2. **Efficient Data Retrieval**:
+   - **Requirement**: Enable efficient reading of specific data subsets.
+   - **Implementation**: Use indexing and partitioning strategies.
+
+3. **Scalability**:
+   - **Requirement**: Ensure the system can handle large datasets.
+   - **Implementation**: Use scalable storage and processing solutions.
+
+4. **Data Visualization**:
+   - **Requirement**: Provide intuitive and interactive visualizations.
+   - **Implementation**: Use dashboards and visual analytics tools.
+
+By focusing on these areas, the analysis can provide valuable insights and help improve the overall performance and engagement in future Olympic events.
+
+
 Project Goals:
 
 
@@ -141,6 +186,28 @@ Power BI Dashboard:
 
 ![image](https://github.com/user-attachments/assets/4fec0f44-46b9-4da7-af4b-bb6506eb37b1)
 
+
+### Conclusion
+
+Based on the analysis of Olympics in Tokyo data, here are the key conclusions:
+
+1. **Athlete Performance**:
+   - The data reveals significant insights into athlete performance across various sports and events. By analyzing metrics such as medals won, personal bests, and records set, we can identify top-performing athletes and sports.
+
+2. **Country Performance**:
+   - Comparing the performance of different countries shows which nations excelled in specific sports. Metrics like total medals, gold medals, and overall ranking provide a clear picture of each country's success.
+
+3. **Event Popularity**:
+   - The popularity of different sports and events can be gauged by the number of participants, audience size, and social media mentions. This helps in understanding which sports attracted the most attention and engagement.
+
+4. **Gender Participation**:
+   - Analyzing gender participation highlights the distribution of male and female athletes across sports. This includes the number of athletes and medals won by gender, providing insights into gender equality in sports.
+
+5. **Historical Comparison**:
+   - Comparing the 2021 Olympics data with previous Olympics allows us to see trends and improvements in performance, participation, and medal counts over time.
+
+
+By leveraging these insights, stakeholders can make informed decisions to enhance athlete performance, increase engagement, and promote equality in future Olympic events.
 
 
 

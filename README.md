@@ -61,7 +61,7 @@ Prerequisite:
 
 1.Initial Set-up:
 
-   • Create Azure Free Subscription acoount
+   • Create Azure account
   
    • Create a Resource Group 'tokyo-olympic-data' to house and manage all the Azure resources associated with this project.
   
@@ -80,7 +80,7 @@ Prerequisite:
   
    • Upload the Tokyo Olympics dataset from kaggle to GitHub.
   
-   • Within the studio, initialize a new data integration pipeline. Now use the task Copy Data to move data efficiently between various supported sources and destinations.
+   • Within the studio, initialize a new data integration pipeline. Now use the Copy Data activity to move data efficiently between various supported sources and destinations.
   
    • Configuring the Data Source with HTTP template as we are using http request to get the data from GitHub repo.
   
